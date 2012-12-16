@@ -1,0 +1,151 @@
+@CHARSET "EUC-KR";
+@charset "UTF-8";
+/* CSS Document */
+#div_mapInfo {
+	width: 980px; 
+	height: 550px; 
+	margin:0 auto;
+}
+/*  */
+.ui-autocomplete {
+	background-color: white;
+	width: 300px;
+	border: 1px solid #cfcfcf;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+html, body, div { margin: 0; padding: 0; border: 0;}
+
+body {
+	margin: auto;
+}
+
+div {
+	
+}
+
+#wrapper {
+	margin: auto;
+	padding: 0;
+	width: 980px;
+	height: 600px;
+	background: #ffffff;
+	-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.6);
+}
+
+#checkArray {
+	display: none;
+}
+
+
+
+
+#home_header, #main_Container {
+	width: 980px;
+	margin: auto;
+	padding: 0;
+}
+
+#main_Container {
+	background : #FFFFFF;
+}
+
+div #bg {
+	-webkit-box-shadow:0 2px 5px rgba(0,0,0,0.6);
+	}
+
+#home_header .logo {
+	margin: 0;
+	padding: 10px 0 0 10px;
+	float: left;
+	top: -50px;
+	position: relative;
+	z-index: 200;
+}
+
+
+#home_header .navi {
+	width: 606px;
+
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	top: -40px;
+}
+   
+
+#home_header .navi .myPage, .newMap, .myMap {
+width: 87px;
+	position: relative;
+	float: left;
+left: 200px;
+}
+
+
+#home_header .navi .myPage .myPage_btn {
+}
+
+#home_header .navi .myPage .newMap_btn {
+}
+
+#home_header .navi .myPage .myMap_btn {
+
+}
+
+
+#home_header .user {
+	width:80px;
+	height: 55px;
+	position: relative;
+	float: right;
+	top: -40px;
+}
+
+#home_contents {
+	height: 500px;
+}
+
+.welcome {
+	height: 84px;
+	position: relative;	
+	top: -25px;
+	margin: 0; padding: 0;
+}
+
+.welcome .img {
+	position: relative;	
+	margin: 0; padding: 0;
+	top: -55px;
+}
+
+
+.welcome .hide {
+	position: relative;	
+	margin: 0; padding: 0;
+	float: right;
+	top: -130px;
+	right: 10px;
+}
+
+#home_contents #container {
+	position: relative;
+	top: -435px;
+	margin-left: 30px;
+}
+
+#home_contents .update_slide{
+	width: 980px;
+	height: 350px;
+}
+
+#home_contents .update_slide .img {
+	padding: 50px;
+	margin-left: 25px;
+}
+
+
+#div_login {
+	display: inline;
+}

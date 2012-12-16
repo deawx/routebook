@@ -1,0 +1,190 @@
+/* 
+	css
+	
+	이미지 출력: 160px
+*/
+
+
+a:link {color:#d5d5d5; text-decoration:none;}      /* unvisited link */
+a:visited {color:#d5d5d5; text-decoration:none;}  /* visited link */
+a:hover {color:#659bd3; text-decoration:none;}  /* mouse over link */
+a:active {color:#e3e3e3; text-decoration:none;}  /* selected link */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; }
+:focus { outline:0; }
+a:active { outline:none; }
+body { line-height:1; color:black; background:white; }
+ol,ul { list-style:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:"" ""; }
+
+/*
+	page style
+*/
+body { 
+	font:normal 62.5%/1.5 Helvetica, Arial, sans-serif;
+	letter-spacing:0;
+	color:#434343;
+	background:#efefef url(../img/background.png) repeat top center;
+	position:relative;
+	text-shadow: none;
+	text-decoration:
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+#container {
+	margin: auto;
+}
+
+#example {
+}
+/*
+#frame {
+	position:absolute;
+	z-index:0;
+	width:600px;
+	height:380px;
+	top:-10px;
+	left:-60px;
+}*/
+/*
+	slideshow
+*/
+
+.item img {
+	width: 282px;
+	height: 282px;
+}
+
+#slides {
+	width: 750px;
+	height: 330px;
+	margin: auto;
+	padding: 10px;
+	z-index:100;
+}
+
+/*
+	slides container
+*/
+
+.slides_control{
+	height: 330px;
+}
+
+.slides_container {
+	left: -10px;
+	width: 650px;
+	height: 330px;
+	overflow: hidden;
+	position: relative;
+	display: none;
+	margin-left: 80px;
+}
+
+
+.item {
+	top: 50px;
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 355px;
+}
+
+/*
+.item img{
+margin-left: 5px;
+margin-rignt: 5px;
+}
+*/
+
+.slides_container .slide {
+	width: 610px;
+	height: 330px;
+	display: block;
+	margin: auto;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slide .slides {
+	margin: auto;
+
+}
+
+#slides .prev {
+	position:absolute;
+	top: 200px;
+	left: 80px;
+
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	position:absolute;
+	top: 200px;
+right: 100px;
+	display:block;
+	z-index:101;
+}
+
+
+/*
+	pagination
+*/
+
+.pagination {
+	margin-left: 340px;
+	width:100px;
+	padding: 10px;
+	position: relative;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	caption
+*/
+
+.caption {
+	z-index:500;
+	position:absolute;
+	bottom:-35px;
+	left:0;
+	height:30px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:160px; /* ???? */
+	font-size:1.3em;
+	line-height:1.33;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
