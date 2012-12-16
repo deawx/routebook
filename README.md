@@ -3,6 +3,6 @@ routebook
 
 sharing your route
 
-jquery, php, mysql
+using jquery, php, mysql
 
 domain : routebook.pe.kr
