@@ -1,8 +1,20 @@
-routebook
-=========
 
-sharing your route
 
-using jquery, php, mysql
+# RouteBook
+Routebook is a service that collects your travel experience and makes "your own travel map" to share with your friends.
 
-domain : routebook.pe.kr
+# Demo
+~~routebook.pe.kr~~
+
+![main-page](/image/main-page.png)
+
+## Motivation
+HTML5 competition in Korea
+
+## Skills
+* jQeury
+* php
+* mysql
+
+## Project period
+2012 August ~ 2012 September
