@@ -1,15 +1,13 @@
-
-
 # RouteBook
 Routebook is a service that collects your travel experience and makes "your own travel map" to share with your friends.
 
-# Demo
+## Demo
 ~~https://routebook.pe.kr~~
 
 ![main-page](/image/main-page.png)
 
 ## Motivation
-HTML5 competition in Korea
+Participate in HTML5 contest
 
 ## Skills
 * jQeury
