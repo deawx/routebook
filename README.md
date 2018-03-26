@@ -10,6 +10,7 @@ Routebook is a service that collects your travel experience and makes "your own 
 Participate in HTML5 contest
 
 ## Skills
+* Google map API
 * jQeury
 * php
 * mysql
