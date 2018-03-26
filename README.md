@@ -17,4 +17,4 @@ HTML5 competition in Korea
 * mysql
 
 ## Project period
-2012 August ~ 2012 September
+August 2012 ~ September 2012 
